@@ -100,7 +100,7 @@
                 <div class="skill-card">
                     <i class="fa-solid fa-laptop-code"></i>
                     <h2>Programming Languages</h2>
-                    <p>Experienced with Python, Flutter, and Dart to build scalable web/mobile apps.</p>
+                    <p>Experienced with Python, Flutter, and building scalable web/mobile apps.</p>
                 </div>
                 <div class="skill-card">
                     <i class="fa-solid fa-palette"></i>
@@ -238,8 +238,8 @@
         document.getElementById("cv-link").addEventListener("click", function(event) {
       event.preventDefault();
       const link = document.createElement("a");
-      link.href = "images/vaigundaraja_resume.pdf";
-      link.download = "Vaigundaraja_resume.pdf";
+      link.href = "images/vaigundaraja_resume.pdf"; // Path to your CV PDF
+      link.download = "Vaigundaraja_Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
