@@ -200,7 +200,7 @@
                             <a href="https://github.com/VaigundaRaJa345" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                             <i class="fa-brands fa-github"></i>
                         </div>
-                        <a href="#" id="cv-link" class="btn btn2">Download CV</a>
+                        <a href="#" id="cv-link" class="btn btn2">Download CV/Resume</a>
                     </div>
                     <div class="contact-right">
                         <form name="submit-to-google-sheet" aria-label="Contact Form">
@@ -238,8 +238,8 @@
         document.getElementById("cv-link").addEventListener("click", function(event) {
       event.preventDefault();
       const link = document.createElement("a");
-      link.href = "images/";
-      link.download = "Vaigundaraja_CV.pdf";
+      link.href = "images/vaigundaraja_resume.PDF";
+      link.download = "Vaigundaraja_Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
