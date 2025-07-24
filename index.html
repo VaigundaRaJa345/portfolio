@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaigundaraja Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bb158cfafa.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!-------------VIDEO BACKGROUND-->
+    <video autoplay muted loop id="bg-video">
+    <source src="images/2611250-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+    <!-- ========== Header Section ========== -->
+    <div id="header">
+        
+            <nav>
+                <p class="logo">They Call Me Astro</p>
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects on Hand</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                    <li><i class="fa-solid fa-xmark" onclick="closemenu()" tabindex="0" aria-label="Close menu"></i></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" tabindex="0" aria-label="Open menu"></i>
+            </nav>
+            <div class="header-text container">
+                <h1 class="animate__animated animate__fadeIn">Hi, <span>I'm Vaigundaraja</span></h1>
+                <p class="animate__animated animate__pulse">Of course, bad code can be cleaned</p>
+                <div class="social-icons">
+                    <a href="https://github.com/VaigundaRaJa345" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://x.com/Rj_Raja1313" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/astro_raja03?utm_source=qr&igsh=aDJ0cnVpbGhtendz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vaigunda-raja-2b2984280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== About Section ========== -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user5.png" alt="Portrait of Vaigundaraja">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Myself ;</h1>
+                    <p>A passionate and dedicated Software Developer,<br><br>With a love for building dynamic, responsive, and user-focused web applications.<br><br>Skilled in both front-end and back-end technologies, I thrive on solving complex problems and delivering high-quality code.<br><br>My goal is to create seamless digital experiences that empower users and drive innovation.</p>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Services Section ========== -->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Quick Aid</h2>
+                    <p>
+                        Designed UI for the project called Quick Aid, a simple and minimal design tailored for college students at a very low budget.
+                    </p>
+                    <a href="https://quick-aid-jmh2.onrender.com" target="_blank" rel="noopener noreferrer">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h2>Fitness Website</h2>
+                    <p>
+                        FitForge—a fitness-focused digital space crafted to inspire, instruct, and ignite your personal transformation. From strength training to flexibility flow.
+                    </p>
+                    <a>Coming Soon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Skills Section ========== -->
+    <section id="skills">
+        <div class="container" class="skills-slider-wrapper">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list" class="skills-slider">
+                <div class="skill-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Programming Languages</h2>
+                    <p>Experienced with Python, Flutter, and building scalable web/mobile apps.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>UI/UX & Web Design</h2>
+                    <p>Designing accessible, elegant interfaces using Figma, HTML, CSS, JavaScript, and modern libraries.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-bug"></i>
+                    <h2>Debugging & QA</h2>
+                    <br><br>
+                    <p>Strong problem-solver who hunts down bugs, writes tests, and ships stable code to production.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Achievements Section ========== -->
+    <section id="achievements">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-trophy"></i>
+                    <h2>Navodaya General Knowledge Competition</h2>
+                    <p>Achieved First Place<br>2019-2020</p>
+                    <li><a href="#certifications">Certification</a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Portfolio Section ========== -->
+   <section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="services-list">
+                <div class="layer">
+                    <h3>Quick Aid</h3><br>
+                    <p>
+                        Quick Aid is a responsive emergency contact web platform designed to store critical personal and vehicle information securely.<br>
+                        Users can register, manage emergency profiles, and generate unique Aztec codes linked to their data.<br>
+                        When scanned, these codes display essential details to bystanders, enabling timely help in emergencies.<br>
+                        Built with Flask, PostgreSQL, HTML/CSS/JavaScript, and hosted on Render for full device accessibility.
+                    </p>
+                    <a href="https://quick-aid-jmh2.onrender.com" target="_blank" rel="noopener noreferrer" aria-label="View Quick Aid Project">
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+                </div>
+            <!-- Add more .work blocks for other projects as needed -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- ========== Certifications Section ========== -->
+    <section id="certifications">
+  <div class="container">
+    <h1 class="sub-title">Certifications</h1>
+    <div class="slider">
+      <div class="slides">
+        <img src="images/Navodaya_page-0001.jpg" alt="Certificate 1">
+        <img src="images/C++_page-0001.jpg" alt="Certificate 2">
+        <img src="images/Ethical_hacking_page-0001.jpg" alt="Certificate 3">
+        <img src="images/Ms_office_page-0001.jpg" alt="Certificate 4">
+        <img src="images/Adavanced_computing_Application_page-0001.jpg" alt="Certificate 5">
+        <img src="images/Saveetha_Brain_teaser_page-0001.jpg" alt="Certificate 6">
+        <img src="images/Saveetha_Debate_page-0001.jpg" alt="Certificate 7">
+        <img src="images/Change_ministires_page-0001.jpg" alt="Certificate 8">
+        <img src="images/Debate_page-0001.jpg" alt="Certificate 9">
+        <img src="images/Quiz_Competition_page-0001.jpg" alt="Certificate 10">
+
+        <!-- Add more certificate images as needed -->
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- ========== Contact Section ========== -->
+    <section id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> vaigundaraja1313@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 8248976853</p>
+                        <div class="social-icons">
+                            
+                            <a href="https://x.com/Rj_Raja1313" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/astro_raja03?utm_source=qr&igsh=aDJ0cnVpbGhtendz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/vaigunda-raja-2b2984280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/VaigundaRaJa345" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <a href="#" id="cv-link" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" aria-label="Contact Form">
+                            <label>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                            </label>
+                            <label>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                            </label>
+                            <label>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            </label><br>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Vaigundaraja. All Rights Reserved.</p>
+        </div>
+    </section>
+
+
+    <!-- ========== slider ========== -->
+
+    <!-- ========== JavaScript ========== -->
+    <script>
+        // Navigation menu toggle
+        const sidemenu = document.getElementById("sidemenu");
+        function openmenu() { sidemenu.style.right = "0"; }
+        function closemenu() { sidemenu.style.right = "-200px"; }
+
+        document.getElementById("cv-link").addEventListener("click", function(event) {
+      event.preventDefault();
+      const link = document.createElement("a");
+      link.href = "images/";
+      link.download = "Vaigundaraja_CV.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+
+        // Google Sheet form submit
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyhmQW7TywJ1pHeSXkAZq-gXtVPtFtnmiVxOnfq3TXyyNpwbX7f6o24qOqb31NMORk6VA/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response => {
+                  msg.innerHTML = "Message sent successfully!";
+                  setTimeout(() => { msg.innerHTML = ""; }, 5000);
+                  form.reset();
+              })
+              .catch(error => {
+                  msg.innerHTML = "Error sending message!";
+                  setTimeout(() => { msg.innerHTML = ""; }, 5000);
+              });
+        });
+    </script>
+</body>
+</html>
